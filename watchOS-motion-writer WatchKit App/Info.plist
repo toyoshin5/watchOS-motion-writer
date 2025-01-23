@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.example.watchOS-motion-writer</string>
+	<string>com.10yo4n.watchOS-motion-writer</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

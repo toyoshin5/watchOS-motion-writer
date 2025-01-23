@@ -635,14 +635,14 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "watchOS-motion-writer WatchKit Extension/watchOS-motion-writer WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -658,14 +658,14 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "watchOS-motion-writer WatchKit Extension/watchOS-motion-writer WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -683,10 +683,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				IBSC_MODULE = watchOS_motion_writer_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS-motion-writer WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -703,10 +703,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				IBSC_MODULE = watchOS_motion_writer_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS-motion-writer WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -723,14 +723,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -744,14 +744,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -766,7 +766,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writerTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -774,7 +774,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -789,7 +789,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writerTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -797,7 +797,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -812,7 +812,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writerUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -820,7 +820,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -834,7 +834,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writerUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -842,7 +842,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-motion-writerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.10yo4n.watchOS-motion-writerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;

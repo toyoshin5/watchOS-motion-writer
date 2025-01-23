@@ -91,14 +91,14 @@ extension InterfaceController: WCSessionDelegate {
             DispatchQueue.main.async {
                 self.startMotionWriter()
             }
+            replyHandler(["command":"start_ok"])
         }
         else if command == "stop" {
             DispatchQueue.main.async {
                 self.stopMotionWriter()
             }
+            replyHandler(["command":"stop_ok"])
         }
-
-        replyHandler(["command":"ok"])
     }
 
 }

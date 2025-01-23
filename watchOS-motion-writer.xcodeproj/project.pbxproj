@@ -26,6 +26,8 @@
 		E35FFEAF252CBC3E00A491BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35FFEAE252CBC3E00A491BE /* Assets.xcassets */; };
 		E35FFF11252CD15400A491BE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FFF10252CD15400A491BE /* HealthKit.framework */; };
 		E35FFF22252D6C7400A491BE /* MotionWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFF21252D6C7400A491BE /* MotionWriter.swift */; };
+		F0C0C4B82D42178300403B4A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C4B72D42178300403B4A /* App.swift */; };
+		F0C0C4BA2D42179000403B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C4B92D42179000403B4A /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,8 @@
 		E35FFF0E252CD15400A491BE /* watchOS-motion-writer WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "watchOS-motion-writer WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		E35FFF10252CD15400A491BE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		E35FFF21252D6C7400A491BE /* MotionWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionWriter.swift; sourceTree = "<group>"; };
+		F0C0C4B72D42178300403B4A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F0C0C4B92D42179000403B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,9 +181,11 @@
 		E35FFE6A252CBC3C00A491BE /* watchOS-motion-writer */ = {
 			isa = PBXGroup;
 			children = (
+				F0C0C4B72D42178300403B4A /* App.swift */,
 				E35FFE6B252CBC3C00A491BE /* AppDelegate.swift */,
 				E35FFE6D252CBC3C00A491BE /* SceneDelegate.swift */,
 				E35FFE6F252CBC3C00A491BE /* ViewController.swift */,
+				F0C0C4B92D42179000403B4A /* ContentView.swift */,
 				E35FFE71252CBC3C00A491BE /* Main.storyboard */,
 				E35FFE74252CBC3D00A491BE /* Assets.xcassets */,
 				E35FFE76252CBC3D00A491BE /* LaunchScreen.storyboard */,
@@ -432,6 +438,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35FFE70252CBC3C00A491BE /* ViewController.swift in Sources */,
+				F0C0C4BA2D42179000403B4A /* ContentView.swift in Sources */,
+				F0C0C4B82D42178300403B4A /* App.swift in Sources */,
 				E35FFE6C252CBC3C00A491BE /* AppDelegate.swift in Sources */,
 				E35FFE6E252CBC3C00A491BE /* SceneDelegate.swift in Sources */,
 			);

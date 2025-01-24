@@ -118,6 +118,7 @@
 		E35FFF21252D6C7400A491BE /* MotionWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionWriter.swift; sourceTree = "<group>"; };
 		F0C0C4B72D42178300403B4A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F0C0C4B92D42179000403B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0C0C4BD2D43DF7200403B4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +164,7 @@
 				E35FFEA5252CBC3E00A491BE /* watchOS-motion-writer WatchKit Extension */,
 				E35FFE69252CBC3C00A491BE /* Products */,
 				E35FFF0F252CD15400A491BE /* Frameworks */,
+				F0C0C4BD2D43DF7200403B4A /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

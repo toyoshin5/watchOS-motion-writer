@@ -8,6 +8,7 @@ struct ContentView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 20) {
                 Text("モーションライター")
+                    .bold()
                     .font(.title)
                     .padding()
                 
@@ -15,12 +16,12 @@ struct ContentView: View {
                     viewModel.sendCommand("start")
                 }) {
                     Text("開始")
-                        .font(.title2)
+                        .bold()
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(viewModel.isRecording ? Color.gray : Color.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(10)
+                        .cornerRadius(12)
                 }
                 .disabled(viewModel.isRecording)
                 
@@ -28,12 +29,12 @@ struct ContentView: View {
                     viewModel.sendCommand("stop")
                 }) {
                     Text("停止")
-                        .font(.title2)
+                        .bold()
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(viewModel.isRecording ? Color.red : Color.gray)
                         .foregroundColor(.white)
-                        .cornerRadius(10)
+                        .cornerRadius(12)
                 }
                 .disabled(!viewModel.isRecording)
                 
@@ -60,6 +61,8 @@ struct ContentView: View {
         }
     }
 }
+
+
 
 
 @MainActor
@@ -147,4 +150,8 @@ extension WatchViewModel: @preconcurrency WCSessionDelegate{
             }
         }
     }
+}
+
+#Preview {
+    ContentView()
 }

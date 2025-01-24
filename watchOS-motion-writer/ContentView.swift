@@ -39,6 +39,9 @@ struct ContentView: View {
                 .disabled(!viewModel.isRecording)
                 
                 if !viewModel.csvContent.isEmpty {
+                    AccelerationChartView(csvContent: viewModel.csvContent)
+                        .frame(height: 300)
+                        .padding()
                     Text(viewModel.csvContent)
                         .font(.system(size: 12, design: .monospaced))
                         .padding()

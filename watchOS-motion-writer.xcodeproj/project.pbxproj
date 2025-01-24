@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E35FFE6C252CBC3C00A491BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFE6B252CBC3C00A491BE /* AppDelegate.swift */; };
-		E35FFE6E252CBC3C00A491BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFE6D252CBC3C00A491BE /* SceneDelegate.swift */; };
-		E35FFE70252CBC3C00A491BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFE6F252CBC3C00A491BE /* ViewController.swift */; };
-		E35FFE73252CBC3C00A491BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FFE71252CBC3C00A491BE /* Main.storyboard */; };
 		E35FFE75252CBC3D00A491BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35FFE74252CBC3D00A491BE /* Assets.xcassets */; };
 		E35FFE78252CBC3D00A491BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FFE76252CBC3D00A491BE /* LaunchScreen.storyboard */; };
 		E35FFE83252CBC3D00A491BE /* watchOS_motion_writerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFE82252CBC3D00A491BE /* watchOS_motion_writerTests.swift */; };
@@ -28,6 +24,7 @@
 		E35FFF22252D6C7400A491BE /* MotionWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FFF21252D6C7400A491BE /* MotionWriter.swift */; };
 		F0C0C4B82D42178300403B4A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C4B72D42178300403B4A /* App.swift */; };
 		F0C0C4BA2D42179000403B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C4B92D42179000403B4A /* ContentView.swift */; };
+		F0C0C4BC2D43D62700403B4A /* AccelerationChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C4BB2D43D62100403B4A /* AccelerationChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,10 +85,6 @@
 
 /* Begin PBXFileReference section */
 		E35FFE68252CBC3C00A491BE /* watchOS-motion-writer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-motion-writer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E35FFE6B252CBC3C00A491BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E35FFE6D252CBC3C00A491BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E35FFE6F252CBC3C00A491BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E35FFE72252CBC3C00A491BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E35FFE74252CBC3D00A491BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35FFE77252CBC3D00A491BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35FFE79252CBC3D00A491BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +112,7 @@
 		F0C0C4B72D42178300403B4A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F0C0C4B92D42179000403B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0C0C4BD2D43DF7200403B4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0C0C4BB2D43D62100403B4A /* AccelerationChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,11 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				F0C0C4B72D42178300403B4A /* App.swift */,
-				E35FFE6B252CBC3C00A491BE /* AppDelegate.swift */,
-				E35FFE6D252CBC3C00A491BE /* SceneDelegate.swift */,
-				E35FFE6F252CBC3C00A491BE /* ViewController.swift */,
 				F0C0C4B92D42179000403B4A /* ContentView.swift */,
-				E35FFE71252CBC3C00A491BE /* Main.storyboard */,
+				F0C0C4BB2D43D62100403B4A /* AccelerationChartView.swift */,
 				E35FFE74252CBC3D00A491BE /* Assets.xcassets */,
 				E35FFE76252CBC3D00A491BE /* LaunchScreen.storyboard */,
 				E35FFE79252CBC3D00A491BE /* Info.plist */,
@@ -397,7 +388,6 @@
 			files = (
 				E35FFE78252CBC3D00A491BE /* LaunchScreen.storyboard in Resources */,
 				E35FFE75252CBC3D00A491BE /* Assets.xcassets in Resources */,
-				E35FFE73252CBC3C00A491BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,11 +429,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35FFE70252CBC3C00A491BE /* ViewController.swift in Sources */,
 				F0C0C4BA2D42179000403B4A /* ContentView.swift in Sources */,
 				F0C0C4B82D42178300403B4A /* App.swift in Sources */,
-				E35FFE6C252CBC3C00A491BE /* AppDelegate.swift in Sources */,
-				E35FFE6E252CBC3C00A491BE /* SceneDelegate.swift in Sources */,
+				F0C0C4BC2D43D62700403B4A /* AccelerationChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,14 +489,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E35FFE71252CBC3C00A491BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E35FFE72252CBC3C00A491BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E35FFE76252CBC3D00A491BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -735,7 +715,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -756,7 +736,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2FS772AW5;
 				INFOPLIST_FILE = "watchOS-motion-writer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

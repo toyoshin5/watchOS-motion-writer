@@ -38,24 +38,26 @@ struct ContentView: View {
                 }
                 .disabled(!viewModel.isRecording)
                 
-                if !viewModel.csvContent.isEmpty {
-                    AccelerationChartView(csvContent: viewModel.csvContent)
-                        .frame(height: 300)
-                        .padding()
-                    Text(viewModel.csvContent)
-                        .font(.system(size: 12, design: .monospaced))
-                        .padding()
-                        .frame(maxHeight: 1000)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(8)
-                }
-                
-                Spacer()
-                
                 if let errorText = viewModel.errorText {
                     Text(errorText)
                         .foregroundColor(.red)
+                }else{
+                    if !viewModel.csvContent.isEmpty {
+                        AccelerationChartView(csvContent: viewModel.csvContent)
+                            .frame(height: 300)
+                            .padding()
+                        Text(viewModel.csvContent)
+                            .font(.system(size: 12, design: .monospaced))
+                            .padding()
+                            .frame(maxHeight: 1000)
+                            .background(Color(.systemGray6))
+                            .cornerRadius(8)
+                    }
+                    
                 }
+              
+                Spacer()
+            
             }
         }
         .padding()
@@ -84,6 +86,7 @@ class WatchViewModel: NSObject, ObservableObject {
     }
     
     func sendCommand(_ command: String) {
+        self.errorText = nil
         session?.sendMessage(["command": command]) { reply in
             print("reply:", reply)
             if let command = reply["command"] as? String {
@@ -94,9 +97,6 @@ class WatchViewModel: NSObject, ObservableObject {
                         self.isRecording = false
                     }
                 }
-            }
-            DispatchQueue.main.async {
-                self.errorText = nil
             }
         } errorHandler: { error in
             print(error)
